@@ -15,7 +15,7 @@ The objective of the assignment was to:
 
 6) Creates a tidy data set with averages of each variable for each activity and each subject
 
-To accomplish this a script has been written labled 'run_analysis.R' and the result shown in the file 'tidy_data.txt'
+To accomplish this a R script has been written labled "run_analysis.R" and the result shown in the file "tidy_data.txt"
 
 
 
