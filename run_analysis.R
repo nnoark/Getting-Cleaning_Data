@@ -68,4 +68,4 @@ names(all_data) <-gsub("BodyBody", "body", names(all_data))
 
 tidy_data <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
-write.table(tidy_data, "tidy.txt", row.names = FALSE)
+write.table(tidy_data, "tidy_data.txt", row.names = FALSE)
